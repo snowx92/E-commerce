@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.logofoot{
+    height: 60px;;
+    width: 60px;
+    margin-right: 0px;
+}
+@media screen and (max-width: 768px){
+    .logofoot{
+        width: 45px;
+        height: 45px;
+        margin-right: 0px;
+    }
+}
+.confoot{
+    margin-left: 20px;
+    color: black;
+margin-right: 5px;
+    font-family: 'Acme', sans-serif;
+ 
+    font-size: 20px;
+}
+.confoot svg{
+    margin-left: 10px;
+    margin-bottom: 7px;
+
+}
+.title{
+    color: black;
+    font-weight: 900;
+}
+footer{
+    background: #eeeeee !important;
+}
+.list-unstyled a{
+    color: black !important;
+
+}
+.footer-copyright{
+    background-color: #E3AEF2  !important;
+}
+.list-unstyled a svg{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.list-unstyled a:hover{
+color:#444444!important ;
+}
+.phone {
+    color: black;
+}
+.phone svg{
+    margin-left: 7px;
+}
+.font{
+    font-family:ZCOOL KuaiLe;
+}
+.visa svg{
+    height: 40px;
+    width: 40px;
+    color: black;
+    margin-right: 10px;
+}
+footer.page-footer .container-fluid {
+color: black !important;
+}
+footer.page-footer a {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+.title {
+  padding-bottom: 20px;
+}

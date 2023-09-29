@@ -1,0 +1,304 @@
+.MuiAppBar-positionFixed{
+    position: absolute;
+}
+@media only screen and (max-width: 768px){
+    .react-slider__imgZoom {
+        display: none !important;
+    }
+    .react-slider{
+        width: auto !important;
+    }
+    }
+    .react-slider__lens {
+        position: absolute;
+        z-index: 3;
+        border: 0px solid #d4d4d4 !important;
+        width: 100px;
+        height: 100px;
+        background-color:inherit !important;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    
+@media only screen and (min-width: 768px){
+.react-slider__picture{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+}
+.react-slider__areaZoom img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+}
+}
+
+.react-slider__imgZoom {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    transform: translateX(20px);
+    width: 400px !important;
+    height: 500px;
+    background-repeat: no-repeat;
+    border: thin solid #ccc;
+    opacity: 50% !important;
+    display: none !important;
+    z-index: -9999;
+    transition: none !important;
+}
+.react-slider__btnNext{
+    display: none;
+
+}
+.react-slider__btnPrev{
+    display: none;
+}
+.react-slider__description{
+    display: none;
+}
+.react-slider__ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0 0;
+    justify-content: center;
+    align-items: stretch;
+}
+.des ul{
+    list-style:square !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.react-slider__picture{
+    max-width: 100% !important;
+    height: 100;
+}
+.size{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.des{
+    margin-top: 20px;
+}
+select{
+    border-radius: 5px !important;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-color: #fff;
+    padding-right: 28px;
+    text-indent: .01px;
+    border: 1px solid rgba(0,0,0,.15);
+    width: 100%;
+    max-width: 100%;
+    display: block; 
+    width: auto!important;
+    margin: 0 0 1em;
+    color: #333;
+    padding: 8px 10px;
+    line-height: 1.42;
+    border-radius: 2px;
+}
+select:hover{
+    background: #fff !important;
+    color: black !important;
+}
+option {
+    color: #000;
+    background-color: #fff;
+}
+.varna{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%; 
+}
+.cartb, .cartc{
+    width: 50%;
+}
+.cartb, .cartc {
+    background-color: transparent;
+    color: #000;
+    border-color: #000;
+    white-space: normal;
+}
+.cartb{
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.8;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 44px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid ;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #000;
+    display: table-row-group;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cartc{
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.8;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 44px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid ;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    display: table-row-group;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cartb:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+.cartc:hover{
+    background-color: #1a1a1a!important;
+}
+.pname{
+    font-size: 2.13333em;
+    line-height: 1.2;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 15px;
+}
+.prc{
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px){
+    .cartb{
+        width: 100%;
+    }
+    .cartc{
+        width: 100%;
+        
+    }
+    .pname{
+        margin-top: 10px;
+
+    }
+    .col-sm-3{
+        width: 50% !important;
+    }
+}
+@media screen and (min-width: 769px){
+.section-header {
+    display: table;
+    width: 100%;
+    text-align: left;
+}
+
+}
+.section-header--medium {
+    margin-bottom: 7.5px;
+}
+.section-header {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.h4, h4 {
+    font-size: 1.06667em !important;
+    font-weight: 900 !important;
+}
+.h4, .tags, h4 {
+    font-size: 1.06667em;
+    line-height: 1.6 !important;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 15px;
+    line-height: 1.4;
+}
+.grid-link__container {
+    margin-bottom: -30px;
+    
+}
+.grid, .grid--full, .grid--rev, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+}
+.card-title{
+    text-align: center;
+    color: #000;
+    font-family: Poppins,sans-serif;
+    font-size: .9em !important;
+    line-height: 1.4 !important;
+    font-weight: 700 !important;
+}
+.card-text{
+    text-align: center;
+    color: black !important;
+}
+.card{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    margin-left: 10% !important;
+}.card img{
+    max-width: 250px;
+    max-height: 250px;
+    
+   
+}
+.card-body{
+    max-width: 200px;
+}
+.card:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+.row{
+    margin-bottom: 10px !important;
+}
